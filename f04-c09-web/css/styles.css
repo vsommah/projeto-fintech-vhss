@@ -1,0 +1,104 @@
+
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+:root {
+    --bg-faded-black: #1E1E1E;
+    --bg-cream: #FAEEE7;
+    --bg-green: #24A19C;
+    --bg-pink: #D96098;
+    --bg-white: #FFF;
+    --margin-top: 100px;
+}
+
+.logo-text {
+    font-size: 1.8rem;
+    color: var(--bg-faded-black);
+    font-weight: 800;
+}
+
+.logo-icon {
+    color: var(--bg-faded-black);
+}
+
+.my-mt {
+    margin-top: var(--margin-top);
+}
+
+.nav-item a {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.my-title {
+    color: var(--bg-green);
+    font-weight: 700;
+}
+
+.bg-cream {
+    background-color: var(--bg-cream);
+}
+
+.sobre {
+    min-height: 60vh;
+}
+
+.icon {
+    font-size: 60px;
+    color: var(--bg-faded-black);
+    margin: 24px 0;
+    transition: .5s;
+}
+
+.btn {
+    --bs-btn-color: var(--bg-cream);
+    --bs-btn-bg: var(--bg-pink);
+    --bs-btn-border-color: var(--bg-pink);
+    --bs-btn-hover-color: var(--bg-pink);
+    --bs-btn-hover-bg: var(--bg-white);
+    --bs-btn-hover-border-color: var(--bg-pink);
+    --bs-btn-focus-shadow-rgb: var(--bg-pink);
+    --bs-btn-active-color: var(--bs-btn-hover-color);
+    --bs-btn-active-bg: var(--bg-pink);
+    --bs-btn-active-border-color: var(--bg-pink);
+}
+
+.card {
+    transition: .5s;
+}
+
+.card:hover {
+    background-color: var(--bg-cream);
+}
+
+.card:hover .icon {
+    transform: scale(1.5);
+}
+
+.icon-social,
+.icon-contato {
+    font-size: 2rem;
+    color: var(--bg-faded-black);
+    transition: .5s;
+}
+
+.icon-social:hover {
+    color: var(--bg-pink);
+}
+
+textarea {
+    resize: none;
+    height: 130px;
+}
+
+@media (max-width: 959px) {
+    #sobre {
+        text-align: center;
+    }
+}
+
+
+
+
+
